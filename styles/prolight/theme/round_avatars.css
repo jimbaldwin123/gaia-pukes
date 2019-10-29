@@ -1,0 +1,4 @@
+.avatar, .notification_list ul li img, a.header-avatar img {
+		border:1px solid #E6E9ED;
+		border-radius:50%;
+}

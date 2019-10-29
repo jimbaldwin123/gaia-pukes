@@ -1,0 +1,277 @@
+/* oxygen-regular - latin-ext_latin */
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/oxygen-v7-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Oxygen Regular'), local('Oxygen-Regular'),
+       url('fonts/oxygen-v7-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/oxygen-v7-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/oxygen-v7-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/oxygen-v7-latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/oxygen-v7-latin-ext_latin-regular.svg#Oxygen') format('svg'); /* Legacy iOS */
+}
+/* oxygen-700 - latin-ext_latin */
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/oxygen-v7-latin-ext_latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Oxygen Bold'), local('Oxygen-Bold'),
+       url('fonts/oxygen-v7-latin-ext_latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/oxygen-v7-latin-ext_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/oxygen-v7-latin-ext_latin-700.woff') format('woff'), /* Modern Browsers */
+       url('fonts/oxygen-v7-latin-ext_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/oxygen-v7-latin-ext_latin-700.svg#Oxygen') format('svg'); /* Legacy iOS */
+}
+
+/* remove annoying yellow background in auto fill fields in Chrome */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #fff inset;
+}
+
+.light-large {
+	font-size:2em;
+}
+
+.light-med {
+	font-size:1.5em;
+}
+
+.headerwrap {
+	background:#ffffff;
+	padding:0 15px;
+}
+
+.page-header, .page-footer {
+	max-width: 1152px;
+	margin: 0 auto;
+}
+
+.lightheader {
+	border-bottom:1px solid #E6E9ED;
+	z-index:39;
+}
+
+.lightsearch {
+	float:right;
+	margin-top:19px;
+}
+
+.search-header {
+	border:1px solid #C7C3BF;
+	display:inline-block;
+	margin-right:10px;
+}
+
+.lightsearch ul.linklist {
+	display:inline-block;
+}
+
+ul.linklist > li:last-of-type {
+	margin-right:0;
+}
+
+.light-badge-count {
+	margin-right:-5px !important;
+}
+
+.light-responsive-search {
+	margin-right:10px !important;
+}
+
+.lightnav {
+	border-bottom:2px solid #E6E9ED;
+}
+
+.navbar-top {
+	background-color:#ffffff;
+	padding:0;
+	border-radius:0;
+	font-size:1.5em;
+}
+
+.navbar-top .icon {
+	font-size:1em;
+}
+
+.navbar-top .dropdown-contents {
+	font-size:.7em;
+}
+
+.light-nav-list {
+	display:inline-block !important;
+}
+
+.nav-breadcrumbs {
+	max-width:78%;
+}
+
+.breadcrumbs .crumb:before {
+	color:#333333;
+}
+
+.navbar-top .rightside i + span, .navbar-bottom i + span {
+	display:none;
+}
+
+.quick-links i + span {
+	display:inline !important;
+}
+
+li.header {
+	padding:15px 0 10px 8px;
+}
+
+.stat-block h3 {
+	border-bottom:none;
+}
+
+.post {
+	border:1px solid #E6E9ED;
+}
+
+.icon-online {
+	color:#00b800;
+	font-size:1em;
+	padding-left:5px;
+}
+
+.cp-menu hr {
+	border-color:#ffffff;
+}
+
+.footerwrap {
+	background-color:#E6E9ED;
+	border-top:1px solid #cccccc;
+	padding:0 0 10px 0;
+	width:100%;
+}
+
+.nav-footer i {
+	font-size:2em;
+}
+
+/* RTL language compatability... */
+
+.rtl .lightsearch {
+	float:left;
+}
+
+.rtl .search-header {
+	float:right !important;
+	margin-left:10px !important;
+}
+
+.rtl .badge {
+	left:12px;
+}
+
+.rtl .light-badge-count {
+	margin-left:-5px !important
+}
+
+.rtl a.header-avatar span:after {
+	padding-left:0px;
+	padding-right:6px;
+}
+
+.rtl li.header {
+	padding:15px 8px 10px 0;
+}
+
+.rtl .tabs {
+	margin-right:0 !important;
+}
+
+/* phpBB official extension compatability... */
+
+/* Board announcements */
+#phpbb_announcement {
+	border-radius:0 !important;
+	border:1px solid #E6E9ED;
+}
+
+/* Board rules */
+.boardrules-container .content {
+	background:#ffffff;
+	border:1px solid #E6E9ED;
+	padding:10px;
+}
+
+.boardrules-categories {
+	margin-top:46px !important;
+}
+
+.mini-panel {
+	border-radius:0 !important;
+	border:1px solid #E6E9ED;
+	background:#ffffff !important;
+}
+
+/* Collapsible categories */
+.collapse-hide, .collapse-show {
+	margin-right:10px !important;
+}
+
+.collapse-btn {
+	background:#ffffff !important;
+	border-color:#C7C3BF !important;
+	border-radius:3px !important;
+}
+
+.collapse-btn:hover {
+	background:#eeeeee !important;
+	border-color:#0A8ED0 !important;
+}
+
+.collapse-btn:after, .collapse-btn:before {
+	border-color:#8f8f8f !important;
+}
+
+.collapse-btn:hover:after, .collapse-btn:hover:before {
+	border-color:#0A8ED0 !important;
+}
+
+/* Responsive... */
+
+@media (max-width: 700px) {
+	.headerbar {
+		padding:5px 0;
+	}
+	
+	.logo {
+		padding:13px 0 0 0;
+	}
+	
+	.site_logo {
+		background-image:url(images/site_logo_small.png);
+		width:76px;
+		height:26px;
+	}
+	
+	.lightsearch {
+		margin-top:16px;
+	}
+	
+	.light-large {
+		font-size:1.5em;
+	}
+	
+	.light-med {
+		font-size:1.2em;
+	}
+	
+	a.header-avatar img {
+		max-height:25px;
+	}
+	
+	.breadcrumbs .crumb:before {
+		padding:0 0.3em;
+	}
+	
+	.footerwrap {
+		padding:0 5px;
+		box-sizing:border-box;
+	}
+}
