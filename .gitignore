@@ -1,6 +1,7 @@
 config.php
 config.php.bak
 /phpunit.xml
+cache/*
 /cache/*
 /phpBB/cache/*
 !/phpBB/cache/.htaccess
